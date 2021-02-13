@@ -9,13 +9,16 @@
     "client": "cd client && npm run start",
     "build:client": "cd client && npm run build",
     "iall": "npm i && cd client && npm i",
-    "startboth": "npm run server & npm run client"
+    "startboth": "npm run server & npm run client",
+    "seed": "node seed.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0"
   }
 }
