@@ -2,13 +2,13 @@ const {db} = require("./server/db");
 const { Butterfly, Perserve } = require("./server/db/models");
 
 
-const butterfliesForPostico = [
-  { name: "Silver-spotted Skipper", count: 0, perserveId:2  },
-  { name: "Northern Cloudywing", count: 0, perserveId:3 },
-  { name: "Wild Indigo Duskywing", count: 0, perserveId:4 },
+const butterflyData = [
+  { name: "Silver-spotted Skipper", count: 0},
+  { name: "Northern Cloudywing", count: 0 },
+  { name: "Wild Indigo Duskywing", count: 0},
 ];
 
-const perservesForPostico = [
+const perserveData = [
   { name: "Open Savanna" },
   { name: " Closed Savanna" },
   { name: "Wetland" },
@@ -19,16 +19,11 @@ async function seed() {
   await db.sync({ force: true });
   console.log("db synced!");
   await Promise.all(
-    butterfliesForPostico.map((butterfly) => Butterfly.create(butterfly))
+    perserveData.map((perserve) => Perserve.create(perserve))
   );
   await Promise.all(
-    perservesForPostico.map((perserve) => Perserve.create(perserve))
+    butterflyData.map((butterfly) => Butterfly.create(butterfly))
   );
-
-  console.log('what up', perservesForPostico.map((perserve) => Perserve.create(perserve)))
-
-  console.log('whats good',butterfliesForPostico.map((butterfly) => Butterfly.create(butterfly))
-  ); 
 }
 
 //Separated the `seed` function from the `runSeed` function.

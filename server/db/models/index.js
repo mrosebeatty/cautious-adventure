@@ -3,7 +3,8 @@ const Butterfly = require("./butterfly")
 const Perserve =  require('./perserve');
 
 //Butterfly Associations
-Butterfly.belongsTo(Perserve), Perserve.hasMany(Butterfly);
+Perserve.hasMany(Butterfly);
+Butterfly.belongsTo(Perserve)
 
 module.exports = {
   db,
