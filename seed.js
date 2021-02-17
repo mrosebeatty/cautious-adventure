@@ -6,6 +6,35 @@ const butterflyData = [
   { name: "Silver-spotted Skipper", count: 0},
   { name: "Northern Cloudywing", count: 0 },
   { name: "Wild Indigo Duskywing", count: 0},
+  { name: "Least Skipper", count: 0},
+  { name: "Fiery Skipper", count: 0},
+  { name: "Peck's Skipper", count: 0},
+  { name: "Tawny-edged Skipper", count: 0},
+  { name: "Northern Broken-dash", count: 0},
+  { name: "Hobomok Skipper", count: 0},
+  { name: "Zabulon Skipper", count: 0},
+  { name: "Delaware Skipper", count: 0},
+  { name: "Dusted Skipper", count: 0},
+  { name: "Black Swallowtail", count: 0},
+  { name: "Eastern Tiger Swallowtail", count: 0},
+  { name: "Orange/Clouded Sulphur", count: 0},
+  { name: "Cabbage White", count: 0},
+  { name: "Coral Hairstreak", count: 0},
+  { name: "Banded Hairstreak", count: 0},
+  { name: "Gray Hairstreak", count: 0},
+  { name: "Eastern Tailed-blue", count: 0},
+  { name: "Spring/Summer Azure", count: 0},
+  { name: "Monarch", count: 0},
+  { name: "Viceroy", count: 0},
+  { name: "Great Spangled Fritillary", count: 0},
+  { name: "American Lady", count: 0},
+  { name: "Painted Lady", count: 0},
+  { name: "Red Admiral", count: 0},
+  { name: "Common Buckeye", count: 0},
+  { name: "Pearl Crescent", count: 0},
+  { name: "Appalachian Brown", count: 0}
+  { name: "Little Wood-satyr", count: 0}
+  { name: "Common Wood-nymph", count: 0}
 ];
 
 const perserveData = [
