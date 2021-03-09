@@ -32,8 +32,8 @@ const butterflyData = [
   { name: "Red Admiral", count: 0},
   { name: "Common Buckeye", count: 0},
   { name: "Pearl Crescent", count: 0},
-  { name: "Appalachian Brown", count: 0}
-  { name: "Little Wood-satyr", count: 0}
+  { name: "Appalachian Brown", count: 0},
+  { name: "Little Wood-satyr", count: 0},
   { name: "Common Wood-nymph", count: 0}
 ];
 
